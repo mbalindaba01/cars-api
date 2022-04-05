@@ -50,6 +50,31 @@
             <h1>Brands</h1>
             <div class="brands"></div>
         </section>
+        <section class="filter-section">
+            <h2>Filter all cars</h2>
+            <div>
+                <label for="color">Pick a color</label>
+                <select name="color" id="color">
+                    <option value="">All</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="white">White</option>
+                    <option value="grey">Grey</option>
+                </select>
+                <br>
+                <label for="brand">Pick a brand</label>
+                <select name="brand" id="brand">
+                    <option value="">All</option>
+                    <option value="volkswagen">Volkswagen</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="nissan">Nissan</option>
+                    <option value="ford">Ford</option>
+                </select>
+                <br>
+                <button class="filter">Filter</button>
+            </div>
+        </section>
     </div>
 
     <section class="car-container">
@@ -60,29 +85,7 @@
     
 
 
-    <div>
-        <h2>Filter all cars</h2>
-        <div>
-            <label for="color">Filter by color</label>
-            <select name="color" id="color">
-                <option value="">All</option>
-                <option value="blue">Blue</option>
-                <option value="red">Red</option>
-                <option value="orange">Orange</option>
-                <option value="white">White</option>
-                <option value="grey">Grey</option>
-            </select>
-            <label for="brand">Filter by brand</label>
-            <select name="brand" id="brand">
-                <option value="">All</option>
-                <option value="volkswagen">Volkswagen</option>
-                <option value="toyota">Toyota</option>
-                <option value="nissan">Nissan</option>
-                <option value="ford">Ford</option>
-            </select>
-            <button class="filter">Filter</button>
-        </div>
-    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
